@@ -1,0 +1,51 @@
+{
+	"root": false,
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 2020
+	},
+	"plugins": [
+		"import"
+	],
+	"extends": [
+		"eslint:recommended",
+        "prettier"
+	],
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"rules": {
+		"eqeqeq": "error",
+		"no-multiple-empty-lines": [
+			"error",
+			{
+				"max": 1
+			}
+		],
+		"quotes": [
+			"error",
+			"single",
+			{
+				"allowTemplateLiterals": true,
+                "avoidEscape": true
+			}
+		],
+		"import/order": [
+			"error",
+			{
+				"groups": [
+					"builtin",
+					"external",
+					"internal",
+					"parent",
+					"sibling",
+					"index"
+				],
+				"alphabetize": {
+					"order": "asc"
+				}
+			}
+		]
+	}
+}
