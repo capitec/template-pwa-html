@@ -4,7 +4,7 @@ Progressive Web App (PWA) starter template for HTML-based Single-page applicatio
 
 ### Headline Features: 🌟
 - Dark-mode support.
-- Integrated debugging, testing, linting & formatting support.
+- Testing, linting & formatting support.
 - Basic SPA boilerplate with routing & PWA setup.
 
 ### Key Dependencies: 🛠️

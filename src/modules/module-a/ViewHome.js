@@ -33,7 +33,7 @@ template.innerHTML = `
         <div>
             <omni-label label="Tooling" type="title"></omni-label>
             <span>
-                We've included IDE support for <omni-hyperlink href="https://code.visualstudio.com/" target="_blank">VS Code</omni-hyperlink>. Additionally, bundling is supported via <omni-hyperlink href="https://webpack.js.org/" target="_blank">webpack</omni-hyperlink>, including chunking support. Static code analysis provided by <omni-hyperlink href="https://eslint.org/" target="_blank">ES Lint</omni-hyperlink> and code formatting provided by <omni-hyperlink href="https://prettier.io/" target="_blank">Prettier</omni-hyperlink>. Testing of components and views provided by <omni-hyperlink href="https://playwright.dev/" target="_blank">Playwright</omni-hyperlink>.
+                We've included IDE support for <omni-hyperlink href="https://code.visualstudio.com/" target="_blank">VS Code</omni-hyperlink>. Static code analysis provided by <omni-hyperlink href="https://eslint.org/" target="_blank">ES Lint</omni-hyperlink> and code formatting provided by <omni-hyperlink href="https://prettier.io/" target="_blank">Prettier</omni-hyperlink>. Testing of components and views provided by <omni-hyperlink href="https://playwright.dev/" target="_blank">Playwright</omni-hyperlink>.
             </span>
         </div>
     </div>
